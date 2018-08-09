@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel = "stylesheet" type = "text/css" href = "panel-style.css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="sidenav">
+ <img src="admin.png"  style="width:75px; height:75px ;">
+  <div style="margin-left:100px;margin-top:10px ">welcome Admin</div><br><br>
+  <a href="panel.html">Hotels</a>
+  <a href="about.html">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact">Log Out</a>
+</div>
+
+<div class="main-content">
+<h4 style="color:rgb(128, 125, 125)">DIGITAL WIZARDS</h4>
+<hr>
+
+    <input type="text"  placeholder="   Search Hotels....." style="height:40px; width:900px; border-radius:10px;margin-top:20px;">
+    <button style="background-color: black;color: white;border:none;border-radius:10px;height:40px;width:60px;font-size:20px;" type="submit" class="searchButton"><i class="fa fa-search"></i></button>
+ 
+ 
+    <h2>Hotels</h2>
+  <div class="box">
+<img src="vege.jpg" height="200px" width="230px">
+<div style="position:absolute;margin-left:300px;margin-top:-20px;">
+<h5>Shiv Sagar</h5>
+</h7> 
+adfvyxweukcrqujh urfvhweurcybuyclvc</h7>
+</div>
+<button class="more" style="border:none; background-color: white; margin-top:170px; margin-left:210px;" ><i  style="font-size:24px;" class="fa fa-caret-down"></i></button>
+   </div><br>
+   
+<div class="more_info" id="more_info">
+    adfvyxweukcrqujh urfvhweurcybuyclvc adfvyxweukcrqujh urfvhweurcybuyclvc
+    adfvyxweukcrqujh urfvhweurcybuyclvc adfvyxweukcrqujh urfvhweurcybuyclvc
+    adfvyxweukcrqujh urfvhweurcybuyclvc adfvyxweukcrqujh urfvhweurcybuyclvc
+    adfvyxweukcrqujh urfvhweurcybuyclvc adfvyxweukcrqujh urfvhweurcybuyclvc
+    adfvyxweukcrqujh urfvhweurcybuyclvc adfvyxweukcrqujh urfvhweurcybuyclvc
+    adfvyxweukcrqujh urfvhweurcybuyclvc adfvyxweukcrqujh urfvhweurcybuyclvc
+    
+ </div>
+
+
+ <div class="box">
+        <img src="vege.jpg" height="200px" width="230px">
+        <div style="position:absolute;margin-left:300px;margin-top:-20px;">
+        <h5>Shiv Sagar</h5>
+        </h7> 
+        adfvyxweukcrqujh urfvhweurcybuyclvc</h7>
+        </div>
+        <button class="more" style="border:none; background-color: white; margin-top:170px; margin-left:210px;" onclick="more_info()" ><i  style="font-size:24px;" class="fa fa-caret-down"></i></button>
+           </div><br>
+
+</div>
+
+
+<script>
+
+$(document).ready(function(){
+    $(".more").click(function(){
+        $(".more_info").toggle(700);
+    });
+});
+</Script>
+
+
+     
+</body>
+</html> 
